@@ -1,7 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     color: #39a6b2;
     font-family:  Helvetica, Arial, sans-serif;
-}
+    }
 
 
 header{
@@ -25,4 +29,22 @@ header a{
 header nav{
     float: right;
     margin: 7px 0;
+}
+
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a { 
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+header h1{
+    display: inline;
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
 }
