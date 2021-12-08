@@ -80,37 +80,31 @@ section{
 
 }
 
-
 /* Hero styling start */
 .hero{ /*set background image*/
     background-image: url(../images/hero-bg.jpg);
     height: 600px;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
-
-/* Hero styling end */
-
 .hero-form{ /*set yellow box for form*/
-background-color:#fce138 ;
-padding: 20px;
-width: 500px;
-color: #024e76;
-border: solid 3px #024e76;
-position: relative ;
+    background-color:#fce138 ;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border: solid 3px #024e76;
+    bottom: 120px;
+    right: 140px;
+    position: absolute ;
 }
-
 .hero-form h3{
     font-size: 24px;
     margin: 0;
 }
-
-
 .hero-form p{
-    margin: 5px 0 15px 0;
-
+    margin: 5px 0 20px 0;
 }
-
 .form-input{
     border: 1px solid #024e76;
     display: block;
@@ -120,15 +114,27 @@ position: relative ;
     width: 100%;
     margin-bottom: 15px;
 }
-
-.hero-form button{
-color: #fce138 ;
-background-color: #024e76;
-border: none;
-padding: 10px 20px;
-font-size: 16px;
+.hero-form input{
+    box-sizing:border-box;
+    padding: 5px;
+    margin: 3px;
+    border: solid #024e76 1px;
+    width: 100%
+   
 }
-
+.hero-form form p input{
+    width: auto;
+    margin: 1px
+}
+.hero-form button{
+    color: #fce138 ;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
 .hero-form label{
     margin: 0 5px;
 }
+
+/* Hero styling end */
